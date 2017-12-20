@@ -1,0 +1,4 @@
+- tsc --init
+- modify the tsconfig.json file
+- script:systemjs for modules 
+- npx http-server -c-1
