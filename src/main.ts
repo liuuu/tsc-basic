@@ -1,11 +1,12 @@
-import {App, obj} from './app';
-new App();
 
-class Person {
-  constructor() {
-    console.log('haha haha ha');
+import { SocialNetwork} from './social-network';
+
+class App implements SocialNetwork {
+  title="first work";
+  section="learning"
+
+  getUsers(){
+    return [{name:"John"}]
   }
 }
 
-var name = obj.name;
-new Person();

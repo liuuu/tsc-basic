@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var app_1 = require("./app");
-new app_1.App();
-var Person = /** @class */ (function () {
-    function Person() {
-        console.log('haha haha ha');
+var App = /** @class */ (function () {
+    function App() {
+        this.title = "first work";
+        this.section = "learning";
     }
-    return Person;
+    App.prototype.getUsers = function () {
+        return [{ name: "John" }];
+    };
+    return App;
 }());
-var name = app_1.obj.name;
-new Person();
